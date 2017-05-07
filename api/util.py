@@ -1,0 +1,11 @@
+API_KEY = "FSUTUIMN-8AHJUJTM-2BA2QYGG-FUN7H9DM"
+API_SECRET = """
+    916d5d29ec0f3eb03a18d8a9fcd14b3d7b51e67
+    83fefaa543dc8519b436440ef6f42a9d1017fa3
+    0d68ab8feefc7e45eabb28f7c31cfb59eede947
+    54fb94184d8
+"""
+API_HOST = "https://poloniex.com"
+WS_HOST = "wss://api.poloniex.com"
+
+ACCEPTABLE_CHART_PERIODS = [300, 900, 1800, 7200, 14400, 86400]

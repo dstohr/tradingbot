@@ -1,0 +1,1 @@
+HOST = 'http://coins-api.evangelos'
