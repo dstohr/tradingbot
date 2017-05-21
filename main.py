@@ -1,6 +1,4 @@
-from api.push_client import PoloniexApplicationRunner
-from coins_api.push_component import CoinsComponent
+from timeseries_predictor.rise_or_not_predictor import run_experiment as rise_experiment
+from timeseries_predictor.price_predictor import run_experiment as price_experiment
 
-
-a = PoloniexApplicationRunner(CoinsComponent)
-a.run_ticker()
+rise_experiment()
