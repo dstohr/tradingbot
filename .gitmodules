@@ -1,0 +1,3 @@
+[submodule "redis-commander"]
+	path = redis-commander
+	url = https://github.com/joeferner/redis-commander

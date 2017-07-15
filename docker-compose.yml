@@ -1,0 +1,12 @@
+version: '2.2'
+services:
+    redis:
+        image: redis:alpine
+    redis-commando:
+        build: ./redis-commander/
+        command: ["--redis-host", "redis"]
+        ports:
+            - "8081:8081"
+        depends_on:
+            - "redis"
+    

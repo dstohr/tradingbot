@@ -19,13 +19,13 @@ class CoinsApi(object):
         print(url)
         if not response.ok:
             raise Exception("Response from api: {}, {}".format(response.status_code, response.text))
-        return response.text
+        return json.loads(response.text)
 
     @classmethod
     def get_all(cls, url):
         page_number = 0
         while True:
-            items = json.loads(cls.get_page(url, page_number))
+            items = cls.get_page(url, page_number)
             page_number += 1
             if items["count"] == 0:
                 break
