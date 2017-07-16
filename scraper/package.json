@@ -6,7 +6,11 @@
   "license": "MIT",
   "dependencies": {
     "mongodb": "^2.2.30",
+    "nodemon": "^1.11.0",
     "redis": "^2.7.1",
     "winston": "^2.3.1"
+  },
+  "scripts": {
+    "DEVELOPMENT": "./node_modules/.bin/nodemon index.js"
   }
 }
