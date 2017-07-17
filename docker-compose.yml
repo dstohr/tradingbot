@@ -34,3 +34,10 @@ services:
         depends_on:
             - "mongo"
             - "redis"
+    scraper-front:
+        build: ./scraper-front
+        volumes:
+            - ./scraper-front:/usr/scraper-front
+        ports:
+            - "1002:4000"
+        command: ${MODE}
