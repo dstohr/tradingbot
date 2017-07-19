@@ -5,12 +5,18 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "mongodb": "^2.2.30",
-    "nodemon": "^1.11.0",
+    "cors": "^2.8.4",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.3",
+    "morgan": "^1.8.2",
     "redis": "^2.7.1",
     "winston": "^2.3.1"
   },
   "scripts": {
-    "DEVELOPMENT": "./node_modules/.bin/nodemon index.js"
+    "DEVELOPMENT": "./node_modules/.bin/nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
