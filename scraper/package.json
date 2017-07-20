@@ -11,10 +11,11 @@
     "mongoose": "^4.11.3",
     "morgan": "^1.8.2",
     "redis": "^2.7.1",
-    "winston": "^2.3.1"
+    "winston": "^2.3.1",
+    "ws": "^3.0.0"
   },
   "scripts": {
-    "DEVELOPMENT": "./node_modules/.bin/nodemon server.js"
+    "DEVELOPMENT": "./node_modules/.bin/nodemon index.js"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"

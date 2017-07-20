@@ -39,6 +39,8 @@ services:
             MONGODB_USER: ${MONGODB_USER}
             MONGODB_PASSWORD: ${MONGODB_PASSWORD}
             REDIS_HOST: ${REDIS_HOST}
+            REDIS_PORT: ${REDIS_PORT}
+            SCRAPER_WS_PORT: ${SCRAPER_WS_PORT}
         depends_on:
             - "mongo"
             - "redis"
@@ -49,3 +51,7 @@ services:
         ports:
             - "1002:4000"
         command: ${MODE}
+        environment:
+            MODE: ${MODE}
+            SCRAPER_HOST: ${SCRAPER_HOST}
+            SCRAPER_WS_PORT: ${SCRAPER_WS_PORT}
