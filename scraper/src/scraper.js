@@ -1,48 +1,40 @@
-const redis = require("redis");
-const client = redis.createClient(process.env.REDIS_PORT, process.env.REDIS_HOST);
-const wsServer = require('./ws-server');
-const RUNNING_KEY = "SCRAPER_RUNNING"
-const ON = "ON"
-const OFF = "OFF"
+const redisClient = require('./redis');
+const RUNNING_KEY = "SCRAPER_RUNNING";
+const ON = "ON";
+const OFF = "OFF";
+
 
 
 class Scraper {
-    constructor(){
+    constructor() {
         this.stop();
     }
-    start(successcb, errorcb) {
-        client.get(RUNNING_KEY, (err, reply) => {
-            if (reply == ON){
-                errorcb && errorcb("Already on");
-                return;
-            }
-            client.set(RUNNING_KEY, ON, function(err, reply){
-                if (err){
-                    errorcb && errorcb(err);
-                    return;
+    start() {
+        return redisClient.getAsync(RUNNING_KEY).then(
+            (val) => {
+                console.log(val);
+                if (val == ON) {
+                    throw 'Already On';
                 }
-                successcb && successcb();
-            });
-        });
+                return redisClient.setAsync(RUNNING_KEY, ON);
+            }
+        )
     }
-    stop(successcb, errorcb) {
-        client.get(RUNNING_KEY, (err, reply) => {
-            if (err){
-                errorcb && errorcb(err);
-                return;
-            }
-            if (reply != ON){
-                errorcb && errorcb("Already off");
-                return;
-            }
-            client.set(RUNNING_KEY, OFF, function(err, reply){
-                if (err){
-                    errorcb && errorcb(err);
-                    return;
+    stop() {
+        return redisClient.getAsync(RUNNING_KEY).then(
+            (val) => {
+                if (val == OFF) {
+                    throw 'Already OFF';
                 }
-                successcb && successcb();
-            })
-        });
+                return redisClient.setAsync(RUNNING_KEY, OFF);
+            }
+        )
+    }
+    append(val) {
+        return redisClient.RPUSHAsync("LIST", val);
+    }
+    pop(val) {
+        return redisClient.RPOPAsync("LIST");
     }
 }
 

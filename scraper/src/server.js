@@ -15,12 +15,6 @@ if (!isProduction) {
 
 app.use(require('./routes'));
 
-app.use(function (req, res, next) {
-    var err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
-
 if (!isProduction) {
     app.use(function (err, req, res, next) {
         console.log(err.stack);
@@ -36,15 +30,8 @@ if (!isProduction) {
     });
 }
 
-app.use(function (err, req, res, next) {
-    res.status(err.status || 500);
-    res.json({
-        'errors': {
-            message: err.message,
-            error: {}
-        }
-    });
-});
+require('./db').connect()
+require('./ws-server');
 
 const server = app.listen(process.env.PORT || 3000, function () {
     console.log('Listening on port ' + server.address().port);
