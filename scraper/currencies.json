@@ -1,0 +1,583 @@
+{
+    "AMP": {
+        "id": 275,
+        "name": "Synereo AMP",
+        "txFee": "5.00000000",
+        "minConf": 1,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "ARDR": {
+        "id": 285,
+        "name": "Ardor",
+        "txFee": "1.00000000",
+        "minConf": 9,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "BCY": {
+        "id": 269,
+        "name": "BitCrystals",
+        "txFee": "4.00000000",
+        "minConf": 2,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "BELA": {
+        "id": 20,
+        "name": "Belacoin",
+        "txFee": "0.01000000",
+        "minConf": 1000,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "BLK": {
+        "id": 22,
+        "name": "BlackCoin",
+        "txFee": "0.01000000",
+        "minConf": 12,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "BTC": {
+        "id": 28,
+        "name": "Bitcoin",
+        "txFee": "0.00010000",
+        "minConf": 1,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "BTCD": {
+        "id": 29,
+        "name": "BitcoinDark",
+        "txFee": "0.01000000",
+        "minConf": 20,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "BTS": {
+        "id": 32,
+        "name": "BitShares",
+        "txFee": "5.00000000",
+        "minConf": 50,
+        "depositAddress": "poloniexwallet",
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "CLAM": {
+        "id": 43,
+        "name": "CLAMS",
+        "txFee": "0.00100000",
+        "minConf": 6,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "DASH": {
+        "id": 60,
+        "name": "Dash",
+        "txFee": "0.01000000",
+        "minConf": 6,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "DCR": {
+        "id": 277,
+        "name": "Decred",
+        "txFee": "0.02000000",
+        "minConf": 4,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "DGB": {
+        "id": 53,
+        "name": "DigiByte",
+        "txFee": "0.10000000",
+        "minConf": 15,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "DOGE": {
+        "id": 59,
+        "name": "Dogecoin",
+        "txFee": "5.00000000",
+        "minConf": 6,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "ETC": {
+        "id": 283,
+        "name": "Ethereum Classic",
+        "txFee": "0.01000000",
+        "minConf": 45,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "ETH": {
+        "id": 267,
+        "name": "Ethereum",
+        "txFee": "0.00500000",
+        "minConf": 45,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "EXP": {
+        "id": 270,
+        "name": "Expanse",
+        "txFee": "0.01000000",
+        "minConf": 120,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "FCT": {
+        "id": 271,
+        "name": "Factom",
+        "txFee": "0.10000000",
+        "minConf": 3,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "FLDC": {
+        "id": 78,
+        "name": "FoldingCoin",
+        "txFee": "150.00000000",
+        "minConf": 2,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "FLO": {
+        "id": 254,
+        "name": "Florincoin",
+        "txFee": "0.01000000",
+        "minConf": 18,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "GAME": {
+        "id": 93,
+        "name": "GameCredits",
+        "txFee": "0.01000000",
+        "minConf": 24,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "GNO": {
+        "id": 291,
+        "name": "Gnosis",
+        "txFee": "0.00500000",
+        "minConf": 35,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "GNT": {
+        "id": 290,
+        "name": "Golem",
+        "txFee": "0.10000000",
+        "minConf": 35,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "GRC": {
+        "id": 261,
+        "name": "Gridcoin Research",
+        "txFee": "0.01000000",
+        "minConf": 120,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "HUC": {
+        "id": 105,
+        "name": "Huntercoin",
+        "txFee": "0.01000000",
+        "minConf": 30,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "LBC": {
+        "id": 280,
+        "name": "LBRY Credits",
+        "txFee": "0.01000000",
+        "minConf": 11,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "LSK": {
+        "id": 278,
+        "name": "Lisk",
+        "txFee": "0.10000000",
+        "minConf": 303,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "LTC": {
+        "id": 125,
+        "name": "Litecoin",
+        "txFee": "0.00100000",
+        "minConf": 4,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "MAID": {
+        "id": 127,
+        "name": "MaidSafeCoin",
+        "txFee": "10.00000000",
+        "minConf": 1,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "NAUT": {
+        "id": 150,
+        "name": "Nautiluscoin",
+        "txFee": "0.00000000",
+        "minConf": 5,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "NAV": {
+        "id": 151,
+        "name": "NAVCoin",
+        "txFee": "0.01000000",
+        "minConf": 30,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "NEOS": {
+        "id": 153,
+        "name": "Neoscoin",
+        "txFee": "0.00010000",
+        "minConf": 28,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "NMC": {
+        "id": 155,
+        "name": "Namecoin",
+        "txFee": "0.01000000",
+        "minConf": 2,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "NOTE": {
+        "id": 157,
+        "name": "DNotes",
+        "txFee": "0.01000000",
+        "minConf": 15,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "NXC": {
+        "id": 288,
+        "name": "Nexium",
+        "txFee": "0.01000000",
+        "minConf": 35,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "NXT": {
+        "id": 162,
+        "name": "NXT",
+        "txFee": "1.00000000",
+        "minConf": 24,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "OMNI": {
+        "id": 143,
+        "name": "Omni",
+        "txFee": "0.10000000",
+        "minConf": 1,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "PASC": {
+        "id": 289,
+        "name": "PascalCoin",
+        "txFee": "0.01000000",
+        "minConf": 8,
+        "depositAddress": "86646-64",
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "PINK": {
+        "id": 168,
+        "name": "Pinkcoin",
+        "txFee": "0.01000000",
+        "minConf": 40,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "POT": {
+        "id": 171,
+        "name": "PotCoin",
+        "txFee": "0.01000000",
+        "minConf": 15,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "PPC": {
+        "id": 172,
+        "name": "Peercoin",
+        "txFee": "0.01000000",
+        "minConf": 6,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "RADS": {
+        "id": 274,
+        "name": "Radium",
+        "txFee": "0.01000000",
+        "minConf": 15,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "REP": {
+        "id": 284,
+        "name": "Augur",
+        "txFee": "0.01000000",
+        "minConf": 35,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "SC": {
+        "id": 268,
+        "name": "Siacoin",
+        "txFee": "10.00000000",
+        "minConf": 6,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "SJCX": {
+        "id": 189,
+        "name": "Storjcoin X",
+        "txFee": "3.00000000",
+        "minConf": 2,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "STR": {
+        "id": 198,
+        "name": "Stellar",
+        "txFee": "0.00001000",
+        "minConf": 2,
+        "depositAddress": "GCGNWKCJ3KHRLPM3TM6N7D3W5YKDJFL6A2YCXFXNMRTZ4Q66MEMZ6FI2",
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "STRAT": {
+        "id": 287,
+        "name": "Stratis",
+        "txFee": "0.01000000",
+        "minConf": 24,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "SYS": {
+        "id": 204,
+        "name": "Syscoin",
+        "txFee": "0.01000000",
+        "minConf": 15,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "USDT": {
+        "id": 214,
+        "name": "Tether USD",
+        "txFee": "2.00000000",
+        "minConf": 1,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "VIA": {
+        "id": 218,
+        "name": "Viacoin",
+        "txFee": "0.01000000",
+        "minConf": 18,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "VRC": {
+        "id": 220,
+        "name": "VeriCoin",
+        "txFee": "0.01000000",
+        "minConf": 250,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "VTC": {
+        "id": 221,
+        "name": "Vertcoin",
+        "txFee": "0.00100000",
+        "minConf": 6,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "XBC": {
+        "id": 229,
+        "name": "BitcoinPlus",
+        "txFee": "0.00010000",
+        "minConf": 20,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "XCP": {
+        "id": 233,
+        "name": "Counterparty",
+        "txFee": "0.20000000",
+        "minConf": 2,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "XEM": {
+        "id": 256,
+        "name": "NEM",
+        "txFee": "15.00000000",
+        "minConf": 18,
+        "depositAddress": "NBZMQO7ZPBYNBDUR7F75MAKA2S3DHDCIFG775N3D",
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "XMR": {
+        "id": 240,
+        "name": "Monero",
+        "txFee": "0.05000000",
+        "minConf": 8,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "XPM": {
+        "id": 242,
+        "name": "Primecoin",
+        "txFee": "0.01000000",
+        "minConf": 9,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "XRP": {
+        "id": 243,
+        "name": "Ripple",
+        "txFee": "0.15000000",
+        "minConf": 12,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "ZEC": {
+        "id": 286,
+        "name": "Zcash",
+        "txFee": "0.00100000",
+        "minConf": 8,
+        "depositAddress": null,
+        "disabled": 0,
+        "delisted": 0,
+        "frozen": 0
+    },
+    "length": 58
+}
